@@ -376,11 +376,18 @@
 </ol>
 <h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ol>
 <li>新建一篇文章：hexo new “postname”<br>会在source/_post下生成md文件，直接编辑该文件提交即可</li>
-<li><p>新建一个页面：hexo new page “pagename”<br>会在source下生成文件夹，该目录下默认index.md文件<br>在\themes\next_config.yml下添加pagename，把新建的菜单和pagename绑定在一起，在\themes\next\languages下添加字段</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  home: /</span><br><span class="line">  #categories: /categories</span><br><span class="line">  #about: /about</span><br><span class="line">  archives: /archives</span><br><span class="line">  tags: /tags</span><br><span class="line">  pagename: /pagename</span><br><span class="line">  #commonweal: /404.html</span><br></pre></td></tr></table></figure>
-<p><a href="http://wiki.jikexueyuan.com/project/hexo-document/server.html" target="_blank" rel="external">其他命令</a></p>
-</li>
+<li>新建一个页面：hexo new page “pagename”<br>会在source下生成文件夹，该目录下默认index.md文件<br>在\themes\next_config.yml下添加pagename，把新建的菜单和pagename绑定在一起，在\themes\next\languages下添加字段<pre><code>menu:
+home: /
+#categories: /categories
+#about: /about
+archives: /archives
+tags: /tags
+pagename: /pagename
+#commonweal: /404.html
+</code></pre></li>
+<li>hexo g,hexo d可以简写成hexo g -d</li>
 </ol>
+<p> <a href="http://wiki.jikexueyuan.com/project/hexo-document/server.html" target="_blank" rel="external">其他命令</a></p>
 
           
         

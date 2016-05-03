@@ -64,7 +64,7 @@
 <link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="批处理 替换字符," />
 
 
 
@@ -80,15 +80,25 @@
 
 
 
-<meta name="description">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Myf's Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="新建.txt文件把下面代码粘贴进去保存@echo off&amp;amp; setlocal enabledelayedexpansion
+for /f &amp;quot;delims=&amp;quot; %%1 in (&amp;apos;dir /a /b&amp;apos;) do (set wind=%%1
+ren &amp;quot;%%~1&amp;quot; &amp;quot;!wind:aaaaaaaa=bbbbbb!&amp;quot;)
+a">
+<meta property="og:type" content="article">
+<meta property="og:title" content="分享批处理：替换文件名中的制定字符">
+<meta property="og:url" content="http://yoursite.com/2016/05/03/bat/index.html">
 <meta property="og:site_name" content="Myf's Blog">
-<meta property="og:description">
+<meta property="og:description" content="新建.txt文件把下面代码粘贴进去保存@echo off&amp;amp; setlocal enabledelayedexpansion
+for /f &amp;quot;delims=&amp;quot; %%1 in (&amp;apos;dir /a /b&amp;apos;) do (set wind=%%1
+ren &amp;quot;%%~1&amp;quot; &amp;quot;!wind:aaaaaaaa=bbbbbb!&amp;quot;)
+a">
+<meta property="og:updated_time" content="2016-05-03T00:51:41.392Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Myf's Blog">
-<meta name="twitter:description">
+<meta name="twitter:title" content="分享批处理：替换文件名中的制定字符">
+<meta name="twitter:description" content="新建.txt文件把下面代码粘贴进去保存@echo off&amp;amp; setlocal enabledelayedexpansion
+for /f &amp;quot;delims=&amp;quot; %%1 in (&amp;apos;dir /a /b&amp;apos;) do (set wind=%%1
+ren &amp;quot;%%~1&amp;quot; &amp;quot;!wind:aaaaaaaa=bbbbbb!&amp;quot;)
+a">
 
 
 
@@ -106,7 +116,7 @@
   };
 </script>
 
-  <title> Myf's Blog </title>
+  <title> 分享批处理：替换文件名中的制定字符 | Myf's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -137,9 +147,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -256,9 +264,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -278,10 +286,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2016/05/03/bat/" itemprop="url">
-                  分享批处理：替换文件名中的制定字符
-                </a>
+                分享批处理：替换文件名中的制定字符
               
             
           </h1>
@@ -337,9 +342,7 @@
       
 
       
-        
-          
-            <ol>
+        <ol>
 <li>新建.txt文件把下面代码粘贴进去保存<pre><code>@echo off&amp; setlocal enabledelayedexpansion
 for /f &quot;delims=&quot; %%1 in (&apos;dir /a /b&apos;) do (set wind=%%1
 ren &quot;%%~1&quot; &quot;!wind:aaaaaaaa=bbbbbb!&quot;)
@@ -347,194 +350,57 @@ ren &quot;%%~1&quot; &quot;!wind:aaaaaaaa=bbbbbb!&quot;)
 <li>保存后把.txt文件后缀直接改成.bat，拷贝到你的文件目录下，双击运行即可。</li>
 </ol>
 
-          
-        
       
     </div>
     
     <div>
       
+        
+      
     </div>
 
     <div>
+      
+        
       
     </div>
 
     <footer class="post-footer">
       
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/2016/04/26/hexo-generate/" itemprop="url">
-                  使用HEXO在github部署静态博客
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">发表于</span>
-            <time itemprop="dateCreated" datetime="2016-04-26T11:14:46+08:00" content="2016-04-26">
-              2016-04-26
-            </time>
-          </span>
-
+        <div class="post-tags">
           
-
-          
-            
-              <span class="post-comments-count">
-                &nbsp; | &nbsp;
-                <a href="/2016/04/26/hexo-generate/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2016/04/26/hexo-generate/" itemprop="commentsCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-
-          
-          
-             <span id="/2016/04/26/hexo-generate/" class="leancloud_visitors" data-flag-title="使用HEXO在github部署静态博客">
-               &nbsp; | &nbsp;
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               <span class="post-meta-item-text">阅读次数 </span>
-               <span class="leancloud-visitors-count"></span>
-              </span>
-          
-
+            <a href="/tags/批处理-替换字符/" rel="tag">#批处理 替换字符</a>
           
         </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <p>刚刚建好博客，就像试着发布一篇文章，那就记录下建立博客的过程吧，初次发布有很多不熟悉，还有许多地方需要学习，希望大家多多指点</p>
-<h1 id="工具-准备"><a href="#工具-准备" class="headerlink" title="工具/准备"></a>工具/准备</h1><p>win7-64位<br>安装<a href="https://git-scm.com/download/win" title="Git" target="_blank" rel="external">Git</a><br>安装<a href="https://nodejs.org/en/" target="_blank" rel="external">Node.js</a><br>注册<a href="https://github.com/" target="_blank" rel="external">github</a>帐号</p>
-<h1 id="创建本地博客"><a href="#创建本地博客" class="headerlink" title="创建本地博客"></a>创建本地博客</h1><h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><p>进入 git bash<br>输入命令：npm install -g hexo</p>
-<h2 id="创建Hexo文件夹"><a href="#创建Hexo文件夹" class="headerlink" title="创建Hexo文件夹"></a>创建Hexo文件夹</h2><p>在任意目录下新建文件夹（如D:/HexoBlog）,右击文件夹选择Git Bash Here<br>输入命令：<br>hexo init<br>npm install<br>hexo generate<br>hexo server<br>此时可以在浏览器中输入 localhost:4000 查看，一个本地博客生成完毕  </p>
-<h2 id="把博客部署到github上"><a href="#把博客部署到github上" class="headerlink" title="把博客部署到github上"></a>把博客部署到github上</h2><ol>
-<li><p>登录<a href="https://github.com/" target="_blank" rel="external">github</a>后点击 New repository,<br><img src="http://i.imgur.com/BhTHtTQ.png" alt=""><br>填写Repository name格式必须固定,然后点Create repository,<br><img src="http://i.imgur.com/XIONaj5.png" alt=""><br>点击刚创建好的github.io文件复制里面的地址<br><img src="http://i.imgur.com/vBzpsGn.png" alt=""></p>
-</li>
-<li><p>进到D:/HexoBlog目录下，打开_config.yml  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">    type: git</span><br><span class="line">    \#repository: https://github.com/myfdeveloper/myfdeveloper.github.io.git</span><br><span class="line">    repository: git@github.com:myfdeveloper/myfdeveloper.github.io.git ##不用每次输入帐号密码</span><br><span class="line">    branch: master</span><br></pre></td></tr></table></figure>
-</li>
-<li><p>修改文件里面的deploy  </p>
-</li>
-<li>设置SSH Keys<br>先删除.ssh下的文件，不存在可以不理<br><img src="http://i.imgur.com/e6bJ4JZ.png" alt=""></li>
-<li>输入命令(你注册github时候用的邮箱)：ssh-keygen -t rsa -C “XXX@163.com”</li>
-<li>提示输入时可直接按回车<br><img src="http://i.imgur.com/lmwgDaQ.png" alt=""></li>
-<li>输入命令： ssh-agent -s</li>
-<li>输入命令： ssh-add ~/.ssh/idrsa  </li>
-<li>输入命令：eval `ssh-agent -s`</li>
-<li>输入命令：ssh-add</li>
-<li>用命令复制SSH key：  clip &lt; ~/.ssh/id_rsa.pub</li>
-<li>把ssh key粘贴至github，点添加，此时会要求你输入github密码<br><img src="http://i.imgur.com/KiJLFpV.png" alt=""><br><img src="http://i.imgur.com/pPtqEHd.png" alt=""></li>
-<li>成功后输入命令ssh -T git@github.com，忽略警告输入yes</li>
-<li><p>输入命令：<br>hexo g<br>hexo d<br><img src="http://i.imgur.com/JeKtGVo.png" alt=""><br>如果遇到上面这种问题（安装时需要等） npm install hexo-deployer-git –save<br><img src="http://i.imgur.com/rqibdkc.png" alt=""><br>如果遇到上面这种问题，在输入命令git init，再部署一遍<br><img src="http://i.imgur.com/XQ38XPL.png" alt=""><br>如果遇到上面这个问题，如下图，把前面的空格删了再按tab对齐，注意冒号后面也需要加上空格<br><img src="http://i.imgur.com/ZV9JcbM.png" alt=""></p>
-</li>
-<li><p>如果出现错误要你输入username，则输入命令：<br>git config –global user.name [username]（github用户名）<br>git config –global user.email [email]（github注册邮箱）<br>再来一次hexo g,hexo d。<br>当看到<img src="http://i.imgur.com/14dJpoM.png" alt="">，恭喜你完成了</p>
-</li>
-<li>完成，到了这步你在浏览器中输入myfdeveloper.github.io就能看到你的主页了<h2 id="发布博客"><a href="#发布博客" class="headerlink" title="发布博客"></a>发布博客</h2>在命令行里输入：hexo new “test”<br>（每次修改玩都需要hexo g,hexo d，来完成部署）<br>此时在E:\hexoblog\source_posts目录下就会生成MD文件，你就可以在这个文件中写你的内容了，部署完后进入浏览器刷新，已经能看到你新发布的博客了<br>参考自  <a href="http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html" target="_blank" rel="external">http://jingyan.baidu.com/article/d8072ac47aca0fec95cefd2d.html</a><h1 id="更换hexo主题"><a href="#更换hexo主题" class="headerlink" title="更换hexo主题"></a>更换hexo主题</h1>Next主题<a href="http://theme-next.iissnan.com/getting-started.html" target="_blank" rel="external">主题来源</a><br>连接是NexT的官网，主题使用和配置都讲的很详细<br>包括多说评论，站内统计，站内搜索等都有详细讲到，我在这就不重复了</li>
-</ol>
-<h1 id="撰写博客"><a href="#撰写博客" class="headerlink" title="撰写博客"></a>撰写博客</h1><p>由于目前流行的是markdown语言来编写博客，它属于很简单的标记语言，因此选择一个合适自己的markdown编辑器是第一步，不需要自己手打格式。<br>好用的编辑器有很多，百度一下会有很多，我用的是其中之一 <a href="http://markdownpad.com/" target="_blank" rel="external">MarkdownPad 2</a>,好处是自带图床，可以在文中直接插入本地图片。<br>不想多安装一个软件的可以使用在线版本的如<a href="http://dillinger.io/" target="_blank" rel="external">dillinger</a>。<br>当你希望在不同的电脑写博客又不想装环境，那<a href="http://www.jianshu.com/" target="_blank" rel="external">简书</a>也不错，也是使用在线的markdown编辑，回头可以自己在整理到静态博客里。<br>手机版本的有markdownX。  </p>
-<h2 id="使用markdown-pad2的一些小提示"><a href="#使用markdown-pad2的一些小提示" class="headerlink" title="使用markdown pad2的一些小提示"></a>使用markdown pad2的一些小提示</h2><ol>
-<li>特殊符号：如”`“,在md里属于特殊字符，得在前面加上转义字符“\”</li>
-<li>插入代码：需要修改下面选项，不然达不到理想效果<br><img src="http://i.imgur.com/HXnDkKK.png" alt="">  </li>
-<li>_post下至少得有一篇文章，不然next会报错无法加载  </li>
-<li>删除或者修改_post下的文章，先hexo s看看，没问题就可以部署了</li>
-</ol>
-<h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><ol>
-<li>新建一篇文章：hexo new “postname”<br>会在source/_post下生成md文件，直接编辑该文件提交即可</li>
-<li>新建一个页面：hexo new page “pagename”<br>会在source下生成文件夹，该目录下默认index.md文件<br>在\themes\next_config.yml下添加pagename，把新建的菜单和pagename绑定在一起，在\themes\next\languages下添加字段<pre><code>menu:
-home: /
-#categories: /categories
-#about: /about
-archives: /archives
-tags: /tags
-pagename: /pagename
-#commonweal: /404.html
-</code></pre></li>
-<li>hexo g,hexo d可以简写成hexo g -d</li>
-</ol>
-<p> <a href="http://wiki.jikexueyuan.com/project/hexo-document/server.html" target="_blank" rel="external">其他命令</a></p>
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/04/26/hexo-generate/" rel="next" title="使用HEXO在github部署静态博客">
+                <i class="fa fa-chevron-left"></i> 使用HEXO在github部署静态博客
+              </a>
+            
+          </div>
 
-          
-        
-      
-    </div>
-    
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -542,6 +408,14 @@ pagename: /pagename
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2016/05/03/bat/"
+           data-title="分享批处理：替换文件名中的制定字符" data-url="http://yoursite.com/2016/05/03/bat/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -561,8 +435,17 @@ pagename: /pagename
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.jpg"
@@ -605,6 +488,17 @@ pagename: /pagename
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <p class="post-toc-empty">此文章未包含目录</p>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -701,6 +595,10 @@ pagename: /pagename
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
